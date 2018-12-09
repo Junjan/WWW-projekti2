@@ -1,0 +1,79 @@
+/* Used to push down the footer down to bottom when not enouch content*/
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    margin-top: 304px !important;
+}
+
+/* END */
+
+#filtering {
+    min-width: 265px;
+}
+
+#wrapper {
+    margin: 0% 1% 2% 1%;
+}
+
+#mapId {
+    height: 100%;
+    width: 110%;
+}
+
+.weatherwidget-io {
+    max-height: 325px;
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+    #desktopMenu {
+        display: none !important;
+    }
+
+    #mobileMenu {
+        display: flex;
+    }
+
+    .weatherwidget-io {
+        max-height: 235px;
+    }
+
+    #mapId {
+        height: 27em !important;
+        width: 100%;
+    }
+
+    #wrapper {
+        margin: 1% 1% 1% 1%;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    #mobileMenu {
+        display: none;
+    }
+
+}
+
+.leaflet-popup-content {
+font-size: 16px;
+font-weight: bold;
+text-align: center;
+max-width: "auto";
+max-height: "auto";
+}
+
+.popupImage {
+padding-top: 15px;
+max-width: 100%;
+max-height: 100%;
+margin: 0 auto;
+display: block;
+
+}
